@@ -11,7 +11,7 @@ st.header('AI RFP "Proposal" Section Generator')
 st.subheader('current version : beta 0.1')
 
 # Set the if, else loop including prompt
-article_text = st.text_area('Please enter the text material(s) or URL you would like to generate the "Purpose" section of an RFP from')
+article_text = st.text_area('Please enter the text material(s) or URL you would like to generate the Purpose section of an RFP from')
 if len(article_text) > 5:
     temp = st.slider("temperature", 0.4, 0.6, 0.8)
     if st.button ('Generate Report'):
