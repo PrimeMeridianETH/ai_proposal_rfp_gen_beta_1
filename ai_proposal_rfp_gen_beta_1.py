@@ -17,7 +17,7 @@ if len(article_text) > 5:
     if st.button ('Generate Report'):
         response = openai.Completion.create(
             engine = "text-davinci-003",
-            prompt = "Be concise, professional and perfect to detail. Generate ONLY the "purpose" section of an RFP using all supplied data points, metrics, analytics, statistics, and backing information located here: " + article_text,
+            prompt = "Be concise, professional and perfect to detail. Generate ONLY the purpose section of an RFP using all supplied data points, metrics, analytics, statistics, and backing information located here: " + article_text,
             max_tokens = 3800,
             temperature = temp
         )
