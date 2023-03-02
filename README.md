@@ -8,22 +8,16 @@ Streamlit library
 Installation
 Clone this repository:
 
-bash
-Copy code
 git clone https://github.com/<USERNAME>/ai-rfp-generator.git
 Install the required dependencies:
 
-Copy code
 pip install -r requirements.txt
 Set the OpenAI API key:
 
-javascript
-Copy code
 export OPENAI_API_KEY=<your_api_key>
 Usage
 Start the app using the following command:
 
-Copy code
 streamlit run app.py
 Enter the text material(s) or URL you would like to generate the "purpose" section of an RFP from.
 
@@ -32,9 +26,6 @@ If the length of the input text is greater than 5, adjust the temperature slider
 Click the "Generate Report" button to generate the "purpose" section of the RFP based on the supplied data points.
 
 The generated report will be displayed along with a download button to download the result.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
